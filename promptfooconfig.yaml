@@ -3,7 +3,7 @@ prompts:
   - file://prompts/prompt_2_empty.txt
 
 providers:
-  - id: anthropic/claude-3.5-haiku
+  - id: anthropic:messages:claude-3-5-haiku-20241022
     config:
       temperature: 0.0
   - id: google:gemini-2.5-flash
