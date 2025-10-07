@@ -1,0 +1,154 @@
+  - vars:
+      document: file://documents/oferta_dostawę_desek_posuszarnianych.md
+    assert:
+      - type: is-json
+        value:
+          required: ["offer_number","document_date","company_name", "recipient", "product_type", "quantity", "total_price_net", "delivery_time", "payment_terms", "offer_validity"]
+          type: object
+        properties:
+          offer_number:
+            type: string
+            description: Unikalny numer identyfikacyjny oferty handlowej
+          document_date:
+            type: string
+            description: Data sporządzenia dokumentu oferty
+          company_name:
+            type: string
+            description: Pełna nazwa firmy wystawiającej ofertę
+          recipient:
+            type: string
+            description: Nazwa odbiorcy oferty (klient)
+          product_type:
+            type: string
+            description: Typ/rodzaj oferowanego produktu lub usługi
+          quantity:
+            type: string
+            description: Ilość oferowanego towaru wraz z jednostką miary
+          total_price_net:
+            type: string
+            description: Całkowita wartość oferty netto (bez VAT)
+          delivery_time:
+            type: string
+            description: Termin realizacji/dostawy zamówienia
+          payment_terms:
+            type: string
+            description: Warunki płatności za zrealizowane zamówienie
+          offer_validity:
+            type: string
+            description: Okres ważności oferty (termin związania ofertą)
+      - type: javascript
+        value: JSON.parse(output).document_date === '20.04.2021' && JSON.parse(output).company_name.includes('DREWNO')
+  - vars:
+      document: file://documents/oferta_dostawa_kruszywa.md
+    assert:
+      - type: is-json
+        value:
+          required: ["offer_number","document_date","company_name", "recipient", "product_type", "quantity", "total_price_net", "delivery_time", "payment_terms", "offer_validity"]
+          type: object
+        properties:
+          offer_number:
+            type: string
+            description: Unikalny numer identyfikacyjny oferty handlowej
+          document_date:
+            type: string
+            description: Data sporządzenia dokumentu oferty
+          company_name:
+            type: string
+            description: Pełna nazwa firmy wystawiającej ofertę
+          recipient:
+            type: string
+            description: Nazwa odbiorcy oferty (klient)
+          product_type:
+            type: string
+            description: Typ/rodzaj oferowanego produktu lub usługi
+          quantity:
+            type: string
+            description: Ilość oferowanego towaru wraz z jednostką miary
+          total_price_net:
+            type: string
+            description: Całkowita wartość oferty netto (bez VAT)
+          delivery_time:
+            type: string
+            description: Termin realizacji/dostawy zamówienia
+          payment_terms:
+            type: string
+            description: Warunki płatności za zrealizowane zamówienie
+          offer_validity:
+            type: string
+            description: Okres ważności oferty (termin związania ofertą)
+  - vars:
+      document: file://documents/oferta_LS_Airport_Deski.md
+    assert:
+      - type: is-json
+        value:
+          required: ["offer_number","document_date","company_name", "recipient", "product_type", "quantity", "total_price_net", "delivery_time", "payment_terms", "offer_validity"]
+          type: object
+        properties:
+          offer_number:
+            type: string
+            description: Unikalny numer identyfikacyjny oferty handlowej
+          document_date:
+            type: string
+            description: Data sporządzenia dokumentu oferty
+          company_name:
+            type: string
+            description: Pełna nazwa firmy wystawiającej ofertę
+          recipient:
+            type: string
+            description: Nazwa odbiorcy oferty (klient)
+          product_type:
+            type: string
+            description: Typ/rodzaj oferowanego produktu lub usługi
+          quantity:
+            type: string
+            description: Ilość oferowanego towaru wraz z jednostką miary
+          total_price_net:
+            type: string
+            description: Całkowita wartość oferty netto (bez VAT)
+          delivery_time:
+            type: string
+            description: Termin realizacji/dostawy zamówienia
+          payment_terms:
+            type: string
+            description: Warunki płatności za zrealizowane zamówienie
+          offer_validity:
+            type: string
+            description: Okres ważności oferty (termin związania ofertą)
+  - vars:
+      document: file://documents/oferta_ZGK_Klembow.json
+    assert:
+      - type: is-json
+        value:
+          required: ["offer_number","document_date","company_name", "recipient", "product_type", "quantity", "total_price_net", "delivery_time", "payment_terms", "offer_validity"]
+          type: object
+        properties:
+          offer_number:
+            type: string
+            description: Unikalny numer identyfikacyjny oferty handlowej
+          document_date:
+            type: string
+            description: Data sporządzenia dokumentu oferty
+          company_name:
+            type: string
+            description: Pełna nazwa firmy wystawiającej ofertę
+          recipient:
+            type: string
+            description: Nazwa odbiorcy oferty (klient)
+          product_type:
+            type: string
+            description: Typ/rodzaj oferowanego produktu lub usługi
+          quantity:
+            type: string
+            description: Ilość oferowanego towaru wraz z jednostką miary
+          total_price_net:
+            type: string
+            description: Całkowita wartość oferty netto (bez VAT)
+          delivery_time:
+            type: string
+            description: Termin realizacji/dostawy zamówienia
+          payment_terms:
+            type: string
+            description: Warunki płatności za zrealizowane zamówienie
+          offer_validity:
+            type: string
+            description: Okres ważności oferty (termin związania ofertą)

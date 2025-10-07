@@ -1,0 +1,205 @@
+{
+  "pages": [
+    {
+      "page": 1,
+      "text": "OFERTA NA DOSTAWY KRUSZYWA CEGALNEGO\nZak  ad Gospodarki Komunalnej w Klembowie\nGen. Fr.  cimirsiego 38\n05-205 Klembów\nNawi zuj  c do og   oszonego przetargu w trybie „przetarg nieograniczony” na: „Zakup, transport\ni rozplantowanie kruszywa ceglanego.”\n1) Oferujemy wykonanie us                     ug obj tych zamówieniem za  czn    kwot :\n             Cena netto                              48 500,00 z\n             VAT (23%)                               11 155,00 z\n             Cena brutto                             59 655,00 z\n2) O wiadczamy,   e zapoznali                 my si  ze specyfikacj  istotnych warunków zamówienia i\nuznajemy si  za zwi zanych okre                      lonymi w niej zasadami post powania.\n3) Udzielamy gwarancji na okres 24 miesi cy licz     c od daty odbioru ko             cowego.\n4) Deklarujemy gotowo      do zawarcia umowy na warunkach okre                   lonych w SIWZ w terminie\nwskazanym przez Zamawiaj                      cego.\nWykonawca:\nDeskmatic Sp. z o.o.\nul. Przyk adowa 10, 00-001 Warszawa\nNIP: 111-222-33-44\nE-mail: kontakt@deskmatic.pl\nTel.: 600 123 456\nWarszawa, dnia 5 pa dziernika 2025 r.\n..............................................\n(podpis osoby uprawnionej)",
+      "md": "\nOFERTA NA DOSTAWY KRUSZYWA CEGALNEGO\nZakład Gospodarki Komunalnej w Klembowie\nGen. Fr. Ścimirsiego 38\n05-205 Klembów\n\nNawiązując do ogłoszonego przetargu w trybie „przetarg nieograniczony” na: „Zakup, transport i rozplantowanie kruszywa ceglanego.”\n\n1. Oferujemy wykonanie usług objętych zamówieniem za łączną kwotę:\n\n<table>\n<tbody><tr>\n<td>Cena netto</td>\n<td>48 500,00 zł</td>\n</tr>\n<tr>\n<td>VAT (23%)</td>\n<td>11 155,00 zł</td>\n</tr>\n<tr>\n<td>Cena brutto</td>\n<td>59 655,00 zł</td>\n</tr>\n</tbody></table>\n\n2. Oświadczamy, że zapoznaliśmy się ze specyfikacją istotnych warunków zamówienia i uznajemy się za związanych określonymi w niej zasadami postępowania.\n3. Udzielamy gwarancji na okres 24 miesięcy licząc od daty odbioru końcowego.\n4. Deklarujemy gotowość do zawarcia umowy na warunkach określonych w SIWZ w terminie wskazanym przez Zamawiającego.\n\nWykonawca:\n\nDeskmatic Sp. z o.o.\n\nul. Przykładowa 10, 00-001 Warszawa\n\nNIP: 111-222-33-44\n\nE-mail: kontakt@deskmatic.pl\n\nTel.: 600 123 456\n\nWarszawa, dnia 5 października 2025 r.\n\n................................................\n\n(podpis osoby uprawnionej)\n\n",
+      "images": [],
+      "charts": [],
+      "items": [
+        {
+          "type": "text",
+          "value": "OFERTA NA DOSTAWY KRUSZYWA CEGALNEGO\nZakład Gospodarki Komunalnej w Klembowie\nGen. Fr. Ścimirsiego 38\n05-205 Klembów",
+          "md": "OFERTA NA DOSTAWY KRUSZYWA CEGALNEGO\nZakład Gospodarki Komunalnej w Klembowie\nGen. Fr. Ścimirsiego 38\n05-205 Klembów",
+          "bBox": {
+            "x": 78,
+            "y": 78,
+            "w": 435.64,
+            "h": 74
+          }
+        },
+        {
+          "type": "text",
+          "value": "Nawiązując do ogłoszonego przetargu w trybie „przetarg nieograniczony” na: „Zakup, transport i rozplantowanie kruszywa ceglanego.”",
+          "md": "Nawiązując do ogłoszonego przetargu w trybie „przetarg nieograniczony” na: „Zakup, transport i rozplantowanie kruszywa ceglanego.”",
+          "bBox": {
+            "x": 78,
+            "y": 118,
+            "w": 435.75,
+            "h": 94
+          }
+        },
+        {
+          "type": "text",
+          "value": "1. Oferujemy wykonanie usług objętych zamówieniem za łączną kwotę:",
+          "md": "1. Oferujemy wykonanie usług objętych zamówieniem za łączną kwotę:",
+          "bBox": {
+            "x": 206.76,
+            "y": 202,
+            "w": 205.33,
+            "h": 10
+          }
+        },
+        {
+          "type": "table",
+          "rows": [
+            [
+              "Cena netto",
+              "48 500,00 zł"
+            ],
+            [
+              "VAT (23%)",
+              "11 155,00 zł"
+            ],
+            [
+              "Cena brutto",
+              "59 655,00 zł"
+            ]
+          ],
+          "html": "<table>\n<tr>\n<td>Cena netto</td>\n<td>48 500,00 zł</td>\n</tr>\n<tr>\n<td>VAT (23%)</td>\n<td>11 155,00 zł</td>\n</tr>\n<tr>\n<td>Cena brutto</td>\n<td>59 655,00 zł</td>\n</tr>\n</table>",
+          "md": "| Cena netto  | 48 500,00 zł |\n| ----------- | ------------ |\n| VAT (23%)   | 11 155,00 zł |\n| Cena brutto | 59 655,00 zł |",
+          "isPerfectTable": false,
+          "csv": "\"Cena netto\",\"48 500,00 zł\"\n\"VAT (23%)\",\"11 155,00 zł\"\n\"Cena brutto\",\"59 655,00 zł\"",
+          "bBox": {
+            "x": 133.56,
+            "y": 217,
+            "w": 52.25,
+            "h": 46
+          }
+        },
+        {
+          "type": "text",
+          "value": "2. Oświadczamy, że zapoznaliśmy się ze specyfikacją istotnych warunków zamówienia i uznajemy się za związanych określonymi w niej zasadami postępowania.\n3. Udzielamy gwarancji na okres 24 miesięcy licząc od daty odbioru końcowego.\n4. Deklarujemy gotowość do zawarcia umowy na warunkach określonych w SIWZ w terminie wskazanym przez Zamawiającego.",
+          "md": "2. Oświadczamy, że zapoznaliśmy się ze specyfikacją istotnych warunków zamówienia i uznajemy się za związanych określonymi w niej zasadami postępowania.\n3. Udzielamy gwarancji na okres 24 miesięcy licząc od daty odbioru końcowego.\n4. Deklarujemy gotowość do zawarcia umowy na warunkach określonych w SIWZ w terminie wskazanym przez Zamawiającego.",
+          "bBox": {
+            "x": 78,
+            "y": 280,
+            "w": 417.94,
+            "h": 58
+          }
+        },
+        {
+          "type": "text",
+          "value": "Wykonawca:",
+          "md": "Wykonawca:",
+          "bBox": {
+            "x": 78,
+            "y": 202,
+            "w": 334.09,
+            "h": 160
+          }
+        },
+        {
+          "type": "text",
+          "value": "Deskmatic Sp. z o.o.",
+          "md": "Deskmatic Sp. z o.o.",
+          "bBox": {
+            "x": 78,
+            "y": 364,
+            "w": 96.7,
+            "h": 10
+          }
+        },
+        {
+          "type": "text",
+          "value": "ul. Przykładowa 10, 00-001 Warszawa",
+          "md": "ul. Przykładowa 10, 00-001 Warszawa",
+          "bBox": {
+            "x": 78,
+            "y": 376,
+            "w": 175.45,
+            "h": 10
+          }
+        },
+        {
+          "type": "text",
+          "value": "NIP: 111-222-33-44",
+          "md": "NIP: 111-222-33-44",
+          "bBox": {
+            "x": 78,
+            "y": 202,
+            "w": 334.09,
+            "h": 196
+          }
+        },
+        {
+          "type": "text",
+          "value": "E-mail: kontakt@deskmatic.pl",
+          "md": "E-mail: kontakt@deskmatic.pl",
+          "bBox": {
+            "x": 78,
+            "y": 202,
+            "w": 334.09,
+            "h": 208
+          }
+        },
+        {
+          "type": "text",
+          "value": "Tel.: 600 123 456",
+          "md": "Tel.: 600 123 456",
+          "bBox": {
+            "x": 78,
+            "y": 202,
+            "w": 334.09,
+            "h": 220
+          }
+        },
+        {
+          "type": "text",
+          "value": "Warszawa, dnia 5 października 2025 r.",
+          "md": "Warszawa, dnia 5 października 2025 r.",
+          "bBox": {
+            "x": 78,
+            "y": 448,
+            "w": 174.9,
+            "h": 10
+          }
+        },
+        {
+          "type": "text",
+          "value": "................................................",
+          "md": "................................................",
+          "bBox": {
+            "x": 78,
+            "y": 472,
+            "w": 127.88,
+            "h": 10
+          }
+        },
+        {
+          "type": "text",
+          "value": "(podpis osoby uprawnionej)",
+          "md": "(podpis osoby uprawnionej)",
+          "bBox": {
+            "x": 78,
+            "y": 484,
+            "w": 122.27,
+            "h": 10
+          }
+        }
+      ],
+      "status": "OK",
+      "originalOrientationAngle": 0,
+      "links": [],
+      "width": 595.2756,
+      "height": 841.8898,
+      "triggeredAutoMode": false,
+      "parsingMode": "accurate",
+      "structuredData": null,
+      "noStructuredContent": false,
+      "noTextContent": false,
+      "pageHeaderMarkdown": "\nOFERTA NA DOSTAWY KRUSZYWA CEGALNEGO\nZakład Gospodarki Komunalnej w Klembowie\nGen. Fr. Ścimirsiego 38\n05-205 Klembów\n",
+      "pageFooterMarkdown": "",
+      "slideSpeakerNotes": null,
+      "slideSectionName": null,
+      "confidence": 0.84
+    }
+  ],
+  "job_metadata": {
+    "credits_used": 0,
+    "job_credits_usage": 0,
+    "job_pages": 1,
+    "job_auto_mode_triggered_pages": 0,
+    "job_is_cache_hit": false
+  }
+}

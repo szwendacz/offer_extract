@@ -1,0 +1,23 @@
+|
+  Extract data from: {{document}}. Return raw JSON object with key:value pairs.
+
+  Data to extract:
+  - offer_number
+  - document_date
+  - company_name
+  - recipient
+  - product_type
+  - quantity
+  - total_price_net
+  - delivery_time
+  - payment_terms
+  - offer_validity
+
+  IMPORTANT: 
+  - Start your response with { character
+  - Do not write ```json before the output
+  - No markdown code blocks
+  - If you can't find required information do not figuired it out, set is as empty 
+
+  Example of correct format:
+  {"document_date": "20.04.2021", "offer_number": "ZO/LSAS/04/2021"}
