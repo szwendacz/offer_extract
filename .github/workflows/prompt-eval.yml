@@ -3,11 +3,13 @@ on:
   pull_request:
     paths:
       - 'prompts/**'
+      - 'tests/**'
+      - 'promptfooconfig.yaml'
+
 jobs:
   evaluate:
     runs-on: ubuntu-latest
     permissions:
-      # This permission is used to post comments on Pull Requests
       pull-requests: write
     steps:
       - name: Checkout code
@@ -15,7 +17,9 @@ jobs:
         with:
           fetch-depth: 0
       
-      # This cache is optional, but you'll save money and time by setting it up!
+      - name: Create output directory
+        run: mkdir -p evaluations
+      
       - name: Set up promptfoo cache
         uses: actions/cache@v4
         with:
@@ -24,13 +28,19 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-promptfoo-
       
-      # This step will actually run the before/after evaluation
       - name: Run promptfoo evaluation
         uses: promptfoo/promptfoo-action@v1
         with:
           openai-api-key: ${{ secrets.OPENAI_API_KEY }}
+          anthropic-api-key: ${{ secrets.ANTHROPIC_API_KEY }}
           github-token: ${{ secrets.GITHUB_TOKEN }}
-          
-          prompts: 'prompts/**/*'
           config: 'promptfooconfig.yaml'
           cache-path: ~/.cache/promptfoo
+      
+      - name: Upload evaluation results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: promptfoo-evaluation-results
+          path: evaluations/
+          retention-days: 30
