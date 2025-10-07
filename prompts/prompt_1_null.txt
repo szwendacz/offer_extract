@@ -17,7 +17,8 @@
   - Start your response with { character
   - Do not write ```json before the output
   - No markdown code blocks
-  - If you can't find required information set null as a value 
+  - If you can't find required information set null as a value
+  - In all circumnstances you should respond in JSON format 
 
   Example of correct format:
   {"document_date": "20.04.2021", "offer_number": "ZO/LSAS/04/2021"}
