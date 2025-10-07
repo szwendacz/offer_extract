@@ -1,10 +1,8 @@
 name: 'Prompt Evaluation'
-
 on:
   pull_request:
     paths:
       - 'prompts/**'
-
 jobs:
   evaluate:
     runs-on: ubuntu-latest
@@ -12,6 +10,11 @@ jobs:
       # This permission is used to post comments on Pull Requests
       pull-requests: write
     steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      
       # This cache is optional, but you'll save money and time by setting it up!
       - name: Set up promptfoo cache
         uses: actions/cache@v4
@@ -20,7 +23,7 @@ jobs:
           key: ${{ runner.os }}-promptfoo-v1
           restore-keys: |
             ${{ runner.os }}-promptfoo-
-
+      
       # This step will actually run the before/after evaluation
       - name: Run promptfoo evaluation
         uses: promptfoo/promptfoo-action@v1
