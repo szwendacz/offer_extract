@@ -1,5 +1,5 @@
   - vars:
-      document: file://documents/oferta_dostawę_desek_posuszarnianych.md
+      document: file://documents/oferta_dostawe_desek_posuszarnianych.md
     assert:
       - type: is-json
         value:
